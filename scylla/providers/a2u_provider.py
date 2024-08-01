@@ -10,7 +10,7 @@ class A2uProvider(BaseProvider):
 
     def urls(self) -> [str]:
         return [
-            'https://raw.githubusercontent.com/a2u/free-proxy-list/master/free-proxy-list.txt',
+            'https://github.com/hookzof/socks5_list/blob/master/proxy.txt',
         ]
 
     def parse(self, document: PyQuery) -> [ProxyIP]:
