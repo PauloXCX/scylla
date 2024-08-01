@@ -25,9 +25,7 @@ class CoolProxyProvider(BaseProvider):
 
     def urls(self) -> [str]:
         return [
-            'https://www.cool-proxy.net/proxies/http_proxy_list/country_code:/port:/anonymous:1',
-            'https://www.cool-proxy.net/proxies/http_proxy_list/country_code:/port:/anonymous:1/page:2',
-            'https://www.cool-proxy.net/proxies/http_proxy_list/country_code:/port:/anonymous:1/page:3',
+            'https://www.cool-proxy.net/',
         ]
 
     @staticmethod
