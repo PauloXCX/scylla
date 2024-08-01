@@ -4,5 +4,5 @@ class Comp0Provider(PlainTextProvider):
 
     def urls(self) -> [str]:
         return [
-            'https://proxy.rudnkh.me/txt',
+            'https://sunny9577.github.io/proxy-scraper/proxies.txt',
         ]
